@@ -1,2 +1,2 @@
-# blog
-Hugo templates and work in progress posts
+# daemonza.github.io
+daemonza.github.io blog
