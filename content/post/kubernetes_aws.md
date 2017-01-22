@@ -1,6 +1,6 @@
 +++
 date = "2017-01-15T10:09:57+01:00"
-draft = true
+draft = false
 title = "Kubernetes on AWS"
 
 +++
