@@ -1,13 +1,13 @@
 +++
 date = "2017-01-15T10:09:57+01:00"
-draft = false
+draft = draft
 title = "Kubernetes on AWS"
 
 +++
 In this post I will be explaining how I setup Kubernetes clusters on Amazon.
 
 I use kops (https://github.com/kubernetes/kops) to setup and manage my Kubernetes clusters. For my day job, I create
-multiple Kubernetes stacks often on Amazon and nothing, so far, comes close to how well kops works for me. I briefly
+multiple Kubernetes stacks often on Amazon and nothing, so far, nothing comes close to how well kops works for me. I briefly
 flirted with kube-aws  (https://github.com/coreos/kube-aws) from CoreOS, and while it's a good tool, Kops just works 
 better for me. Also there is something to be said for using a tool developed and used by the same guys that develop Kubernetes.
 
