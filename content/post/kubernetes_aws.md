@@ -12,7 +12,7 @@ flirted with kube-aws  (https://github.com/coreos/kube-aws) from CoreOS, and whi
 better for me. Also there is something to be said for using a tool developed and used by the same guys that develop Kubernetes.
 
 There is also kubeadm (https://kubernetes.io/docs/getting-started-guides/kubeadm/), however it's currently in alpha. Have not
-used it myself before, but it's defiantly something I am keeping a eye on.
+used it myself before, but it's definitely something I am keeping a eye on.
 
 #### Installing kops
 
