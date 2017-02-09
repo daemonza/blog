@@ -1,7 +1,7 @@
 +++
-date = "2017-01-17T09:42:32+01:00"
-draft = true
-title = "nginx ingress controller with SSL and vhosts"
+date = "2017-02-13T09:42:32+01:00"
+draft = false
+title = "Kubernetes nginx-ingress-controller"
 menu = "main"
 +++
 
@@ -80,7 +80,7 @@ https://github.com/kubernetes/contrib/tree/master/ingress/controllers/nginx
 
 In general I prefer the nginx-ingress-controller, so for the rest of the article I will focus on it.
 
-# Setup
+#### Setup
 
 Let's setup a little demo 'hello world' api on our  cluster and expose the api on the internet using 
 nginx-ingress-controller. Let's deploy the `nginx-ingress-controller` first.
@@ -324,10 +324,7 @@ spec:
           servicePort: 8080
 ```
 
-Quick run through of the above file. It consists of three parts, 
-* deployment
-* service
-* ingress
+Quick run through of the above file. It consists of three parts, deployment, service, ingress.
 
 I normally split these into threes separate files, but for the sake of this blog post, let's
 keep it all in one file. For the nginx-ingress-controller we are mostly interested in
