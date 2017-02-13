@@ -245,8 +245,8 @@ curl -v aaba00ec3d35211r68caa0a32e7f202e-566d19265.eu-west-1.elb.amazonaws.com
 You should see the following :
 
 ```
-< HTTP/1.1 404 Not Found
-< Server: nginx/1.11.3
+HTTP/1.1 404 Not Found
+Server: nginx/1.11.3
 ```
 
 and the response should be 
@@ -387,9 +387,8 @@ testapi   api.daemonza.io   51.232.218.155   80
 Let's ask for a little more information with `describe`
 ```
 kubectl describe ingress testapi
-```
 
-```
+
 Name:			testapi
 Namespace:		default
 Address:		52.214.207.195
@@ -654,22 +653,20 @@ to handle all sticky sessions for us.
 This is how the generated nginx configuration looks after enabling sticky sessions.
 
 ```
-    upstream default-testapi-8080 {
-        sticky name=SERVERID httponly path=/;
-        server 100.96.3.148:8080 max_fails=0 fail_timeout=0;
-        server 100.96.4.222:8080 max_fails=0 fail_timeout=0;
-        server 100.96.4.223:8080 max_fails=0 fail_timeout=0;   
-    }
+upstream default-testapi-8080 {
+    sticky name=SERVERID httponly path=/;
+    server 100.96.3.148:8080 max_fails=0 fail_timeout=0;
+    server 100.96.4.222:8080 max_fails=0 fail_timeout=0;
+    server 100.96.4.223:8080 max_fails=0 fail_timeout=0;   
+}
     
-    server {
-            server_name api.daemonza.io;
-            listen 80;
+server {
+        server_name api.daemonza.io;
+        listen 80;
 
-            location /testapi {
-                   
-                proxy_pass http://default-testapi-8080;
-            }
-
+        location /testapi {           
+            proxy_pass http://default-testapi-8080;
+        }
 ```
 
 

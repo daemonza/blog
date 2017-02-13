@@ -14,7 +14,11 @@ languageCode = "en-EN"
 metaDataFormat = "yaml"
 
 # Theme to use (located in /themes/THEMENAME/)
-theme = "hyde-y"
+theme = "hugo-redlounge"
+
+
+# Enable syntax highlights
+pygmentsuseclasses = true
 
 # Pagination
 paginate = 10
