@@ -43,10 +43,9 @@ disqusShortname = "daemonza-github-io"
 # All parameters below here are optional and can be mixed and matched.
 #
 [params]
-    # You can use markdown here.
-    brand = "Daemonza"
-    topline = "clouds and stuff and bits and bobs"
-    footline = "code with <i class='fa fa-heart'></i>"
+
+    sidebartitle = "Daemonza"
+    sidebartagline = "clouds and stuff and bits and bobs"
 
     # Sidebar position
     # false, true, "left", "right"
