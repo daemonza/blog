@@ -60,7 +60,7 @@ disqusShortname = "daemonza-github-io"
     highlight = "default"
 
     # Google Analytics.
-    googleAnalytics = "UA-11463637-6"
+    gaid = "UA-11463637-6"
 
     # Sidebar social links.
     github = "daemonza" # Your Github profile ID
