@@ -2,7 +2,7 @@
 date = "2017-02-13T09:42:32+01:00"
 draft = false
 title = "Kubernetes nginx-ingress-controller"
-menu = "main"
+
 +++
 
 #### Introduction

@@ -1,8 +1,5 @@
 baseurl = "https://daemonza.github.io"
 
-# Site title
-#title = "Cloud and stuff"
-
 # Copyright
 copyright = "(c) 2017 Werner Gillmer"
 
@@ -39,9 +36,7 @@ disqusShortname = "daemonza-github-io"
     name = "Werner Gillmer"
     email = "werner.gillmer@gmail.com"
 
-#
-# All parameters below here are optional and can be mixed and matched.
-#
+
 [params]
 
     sidebartitle = "Daemonza"
@@ -62,28 +57,27 @@ disqusShortname = "daemonza-github-io"
     # Google Analytics.
     gaid = "UA-11463637-6"
 
-    # Sidebar social links.
-    github = "daemonza" # Your Github profile ID
-    bitbucket = "" # Your Bitbucket profile ID
-    linkedin = "werner-gillmer-202a79" # Your LinkedIn profile ID (from public URL)
-    googleplus = "" # Your Google+ profile ID
-    facebook = "" # Your Facebook profile ID
-    twitter = "" # Your Twitter profile ID
-    youtube = ""  # Your Youtube channel ID
-    flattr = ""  # populate with your flattr uid
-    flickr = "" # Your Flickr profile ID
-    vimeo = "" # Your Vimeo profile ID
 
     # Sidebar RSS link: will only show up if there is a RSS feed
     # associated with the current page
     rss = true
 
-[blackfriday]
-    angledQuotes = true
-    fractions = false
-    hrefTargetBlank = false
-    latexDashes = true
-    plainIdAnchors = true
-    extensions = []
-    extensionmask = []
+#[[menu.main]]
+#    name = "Blog"
+#    url = "/post"
+
+[[menu.social]]
+	pre = "<i class='fa fa-twitter'></i>"
+    url = "https://twitter.com/daemonza"
+    identifier = "twitter"
+
+[[menu.social]]
+    pre = "<i class='fa fa-github'></i>"
+    url = "https://github.com/daemonza"
+    identifier = "github"
+
+[[menu.social]]
+    pre = "<i class='fa fa-linkedin'></i>"
+    url = "https://nl.linkedin.com/in/werner-gillmer-202a79"
+    identifier = "linkedin"
 
