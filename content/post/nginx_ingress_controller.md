@@ -562,7 +562,7 @@ spec:
 Now if you ask for the api.myfakedomain.io ingress rules
 
 ```
-kubectl get ingress api.myfakedomain.io
+kubectl describe ingress api.myfakedomain.io
 ```
 
 you should get a similar reply to the following :
