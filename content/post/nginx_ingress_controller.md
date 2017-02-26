@@ -20,11 +20,11 @@ to the cluster or the internet. Some of the `service` types are :
  * ClusterIP
    Your service is only expose internally to the cluster on the internal cluster IP. A example would be to 
    deploy Hasicorp's vault and expose it only internally.
-   
+ 
  * NodePort
    Expose the service on the EC2 Instance on the specified port. This will be exposed to the internet. Off course it 
    this all depends on your AWS Security group / VPN rules.
-   
+ 
  * LoadBalancer
    Supported on Amazon and Google cloud, this creates the cloud providers your using load balancer. So on Amazon it creates
    a ELB that points to your `service` on your cluster. 
@@ -287,7 +287,7 @@ spec:
     spec:
       containers:
         - name: testapi
-          image: docker pull daemonza/testapi:latest
+          image: daemonza/testapi:latest
           imagePullPolicy: Always
 ---
 apiVersion: v1
