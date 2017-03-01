@@ -13,7 +13,6 @@ metaDataFormat = "yaml"
 # Theme to use (located in /themes/THEMENAME/)
 theme = "hugo-redlounge"
 
-
 # Enable syntax highlights
 pygmentsuseclasses = true
 
@@ -36,9 +35,7 @@ disqusShortname = "daemonza-github-io"
     name = "Werner Gillmer"
     email = "werner.gillmer@gmail.com"
 
-
 [params]
-
     sidebartitle = "Daemonza"
     sidebartagline = "clouds and stuff and bits and bobs"
 
@@ -57,14 +54,10 @@ disqusShortname = "daemonza-github-io"
     # Google Analytics.
     gaid = "UA-11463637-6"
 
-
     # Sidebar RSS link: will only show up if there is a RSS feed
     # associated with the current page
     rss = true
 
-#[[menu.main]]
-#    name = "Blog"
-#    url = "/post"
 
 [[menu.social]]
 	pre = "<i class='fa fa-twitter'></i>"
