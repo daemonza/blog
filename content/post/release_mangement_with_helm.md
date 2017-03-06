@@ -1,9 +1,13 @@
 ---
+#Categories:
+#- helm 
+#- kubernetes 
+#- deis
 Description: ""
 Tags:
-- Kubernetes
-- Helm
-- CI/CD
+- helm
+- kubernetes
+- deis
 date: 2017-02-20T15:21:26+01:00
 title: "Using Helm to deploy to Kubernetes"
 draft: false

@@ -1,9 +1,17 @@
-+++
-date = "2017-01-15T10:09:57+01:00"
-draft = false
-title = "Kubernetes on AWS"
+---
+#Categories:
+#- kubernetes 
+#- amazon 
+Description: ""
+Tags:
+- kubernetes
+- amazon
+date:  "2017-01-15T10:09:57+01:00"
+draft:  false
+title:  "Kubernetes on AWS"
 
-+++
+---
+
 In this post I will be explaining how I setup Kubernetes clusters on Amazon.
 
 I use kops (https://github.com/kubernetes/kops) to setup and manage my Kubernetes clusters. For my day job, I create

@@ -1,9 +1,17 @@
-+++
-date = "2017-02-13T09:42:32+01:00"
-draft = false
-title = "Kubernetes nginx-ingress-controller"
-
-+++
+---
+#Categories:
+#- kubernetes
+#- nginx
+#- ingress
+Description: ""
+Tags:
+- kubernetes
+- nginx
+- ingress
+date:  "2017-02-13T09:42:32+01:00"
+title:  "Kubernetes nginx-ingress-controller"
+draft:  false
+---
 
 #### Introduction
 
